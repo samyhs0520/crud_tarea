@@ -16,11 +16,11 @@ public class TareaService {
     public List<Tarea> getAll(){
         return tareaRepository.findAll();
     }
-    public Optional<Tarea> getById(Long id){
+    public Optional<Tarea> getById(Integer id){
         return tareaRepository.findById(id);
     }
     public Tarea save(Tarea tarea){
         return tareaRepository.save(tarea);
     }
-    public void delete(Long id){}
+    public void delete(Integer id){}
 }
