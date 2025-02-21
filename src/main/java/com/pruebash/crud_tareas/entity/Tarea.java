@@ -14,6 +14,15 @@ public class Tarea {
     private String descripcion ;
     private boolean completado = false;
 
+    public Tarea() {
+    }
+    public Tarea(String titulo, String descripcion, boolean completado) {
+        this.titulo = titulo;
+        this.descripcion = descripcion;
+        this.completado = completado;
+    }
+
+
     public void setId(Integer id) {
         this.id = id;
     }
