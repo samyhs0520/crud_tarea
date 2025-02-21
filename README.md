@@ -34,7 +34,8 @@ Asegúrate de tener instalados los siguientes requisitos antes de ejecutar los p
 
 ### 2. Ejecutar el Frontend (Angular)
 1. Clona el repositorio:
-   ```git clone https://github.com/samyhs0520/front_tareas.git
+   ```bash
+   git clone https://github.com/samyhs0520/front_tareas.git
    ```
 2. Instala las dependencias:
    ```bash
