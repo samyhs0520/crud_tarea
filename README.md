@@ -15,17 +15,12 @@ Asegúrate de tener instalados los siguientes requisitos antes de ejecutar los p
 
 ---
 
-## Configuración y Ejecución
-
-Clone el repositorio el cual contiene el frontend y al backend 
-```bash
-
-```
 
 ### 1. Ejecutar el Backend (Spring Boot)
 
 1. Clona el repositorio:
-   ```git clone https://github.com/samyhs0520/crud_tareas.git
+   ```bash
+   git clone https://github.com/samyhs0520/crud_tarea.git
    ```
 2. Configura la base de datos en `application.properties` en el caso de ser requerido
 3. Compila y ejecuta el proyecto con Maven:
@@ -39,7 +34,8 @@ Clone el repositorio el cual contiene el frontend y al backend
 
 ### 2. Ejecutar el Frontend (Angular)
 1. Clona el repositorio:
-   ```git clone https://github.com/samyhs0520/front_tareas.git
+   ```bash
+   git clone https://github.com/samyhs0520/front_tareas.git
    ```
 2. Instala las dependencias:
    ```bash
