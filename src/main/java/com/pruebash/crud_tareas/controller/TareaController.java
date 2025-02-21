@@ -10,6 +10,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/tareas")
+@CrossOrigin(origins = "http://localhost:4200")
 public class TareaController {
     @Autowired
     private TareaService tareaService;
@@ -33,9 +34,10 @@ public class TareaController {
         return tareaService.save(tarea);
 
     }
-    @DeleteMapping("/id")
-    public void deleteTareaById(@PathVariable int id) {
+    @DeleteMapping("/{id}")
+    public void deleteTareaById(@PathVariable Integer id) {
         tareaService.delete(id);
+
     }
 
 
